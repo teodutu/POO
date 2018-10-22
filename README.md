@@ -2,7 +2,7 @@
 
 Materiale pentru Programare Orientata pe Obiecte, 2018
 
-Toate fisierele-sursa au fost si vor fi compilate si rulate in `IntelliJ Idea`
+Toate fisierele-sursa au fost si vor fi compilate cu `Java 10` si rulate pe un JVM ce suporta aceasta versiune
 
 ## Laburi
 
