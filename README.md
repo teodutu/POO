@@ -10,9 +10,9 @@ Toate fisierele-sursa au fost si vor fi compilate cu `Java 10` si rulate pe un J
 
 - Lab2: clase, concepte de baza
 
-- Lab3: Mostenire
+- Lab3: mostenire
 
-- Lab4: Clase abstracte + interfete
+- Lab4: clase abstracte + interfete
 
 - Lab5: TODO
 
