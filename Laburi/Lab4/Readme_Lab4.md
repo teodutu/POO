@@ -23,7 +23,7 @@
 	- contine un generator de numere random;
 	- `execute()` afiseaza un nou numar random.
 
-## second - mostenire: stiva si coada implementate oe baza unui ArrayList
+## second - mostenire: stiva si coada implementate pe baza unui ArrayList
 
 - Container: interfata ce stocheaza `Task`-uri si contine metodele specifice claselor `Stack` si `Queue`:
 	- `pop()` - extrage si returneaza;
