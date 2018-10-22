@@ -4,8 +4,6 @@
 
 - recapitulare concepte invatate pana acum: mostenire, agregare;
 
-- 
-
 ## first - Command Pattern
 
 - Task: interfata ce va fi folosita pentru *downcasting*;
@@ -64,8 +62,8 @@
 	- campul se incrementeaza la fiecare `afterExecution()`;
 
 - RedoBackTaskRunner: contine o stiva, implementata folosind clasa `Stack` de mai sus;
-	- adauga fiecare `Task` in stiva, pentru a permite o `redo()`.
+	- adauga fiecare `Task` in stiva, pentru a permite operatia `redo()`.
 
 ## Main
 
-- implementeaza toate clasele de mai sus si le exemplifica functionarea.
+- implementeaza toate clasele de mai sus si le ilustreaza functionarea.
