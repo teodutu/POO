@@ -4,6 +4,8 @@
 
 - recapitulare concepte invatate pana acum: mostenire, agregare;
 
+- lucrul cu pachete
+
 ## first - Command Pattern
 
 - Task: interfata ce va fi folosita pentru *downcasting*;
