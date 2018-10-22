@@ -31,8 +31,8 @@
 	- `push()`;
 	
 	- `size()`;
-
-    	- `isEmpty()`;
+	
+	- `isEmpty()`;
 
 	- `transferFrom()` - muta elementele dintr-un `Container` (pe care il goleste) in altul;
 
