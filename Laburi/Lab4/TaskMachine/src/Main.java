@@ -65,7 +65,7 @@ public class Main {
         testTaskRunner(counterTaskRunner);
         System.out.println("#Executed tasks: " + counterTaskRunner.getCounter());
 
-        RedoBackTaskRunner  redoTaskRunner = new RedoBackTaskRunner(Strategy.LIFO);
+        RedoBackTaskRunner redoTaskRunner = new RedoBackTaskRunner(Strategy.LIFO);
 
         testTaskRunner(redoTaskRunner);
         System.out.println("Reexecuting: ");
