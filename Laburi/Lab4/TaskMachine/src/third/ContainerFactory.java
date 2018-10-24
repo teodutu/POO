@@ -13,8 +13,10 @@ public class ContainerFactory implements IFactory {
         switch (strategy) {
             case FIFO:
                 return new Queue();
-            default:
+            case LIFO:
                 return new Stack();
         }
+
+        return null;
     }
 }
