@@ -8,7 +8,7 @@
 
 ## first - Command Pattern
 
-- Task: interfata ce va fi folosita pentru *downcasting*;
+- Task: interfata ce va fi folosita pentru *upcasting*;
 	- contine metoda `execute()`;
 
 - CounterOutTask:
