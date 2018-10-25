@@ -26,7 +26,7 @@
 ## second - mostenire: stiva si coada implementate pe baza unui ArrayList
 
 - Container: interfata ce stocheaza `Task`-uri si contine metodele specifice claselor `Stack` si `Queue`:
-	- `pop()` - extrage si returneaza;
+	- `pop()` - extrage si returneaza un `Task`;
 	
 	- `push()`;
 	
@@ -35,10 +35,16 @@
 	- `isEmpty()`;
 
 	- `transferFrom()` - muta elementele dintr-un `Container` (pe care il goleste) in altul;
+	
+- AbstractContainer: clasa abstracta ce implementeaza Container, pentru a se evita duplicarea de cod in Queue si in Stack:
 
-- Queue: extinde Container;
+	- implementeaza toate metodele din Container, in afara de`pop()`;
+	
+        - contine un `ArrayList` ce sticheaza `Task`-urile;
 
-- Stack: extinde Container.
+- Queue: extinde AbstractContainet;
+
+- Stack: extinde AbstractContainet.
 
 ## third - Factory Pattern + Singleton
 
