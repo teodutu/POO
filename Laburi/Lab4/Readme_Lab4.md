@@ -48,7 +48,7 @@
 
 ## third - Factory Pattern + Singleton
 
-- Strategy: une enum sec cu 2 campuri: `LIFO` si `FIFO`;
+- Strategy: un enum sec cu 2 campuri: `LIFO` si `FIFO`;
 
 - IFactory: interfata ce contine o metoda ce se doreste a crea un `Container`:
 	- `createContainer()`;
