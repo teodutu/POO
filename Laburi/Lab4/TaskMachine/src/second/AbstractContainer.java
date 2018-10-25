@@ -11,8 +11,12 @@ public abstract class AbstractContainer implements Container {
     }
 
     @Override
-    public void push(Task task) {
-        list.add(task);
+    public Task pop() {
+        try {
+            return list.remove(0);
+        } catch (Exception e) {
+            return null;
+        }
     }
 
     @Override
