@@ -36,15 +36,15 @@
 
 	- `transferFrom()` - muta elementele dintr-un `Container` (pe care il goleste) in altul;
 	
-- AbstractContainer: clasa abstracta ce implementeaza Container, pentru a se evita duplicarea de cod in Queue si in Stack:
+- AbstractContainer: clasa abstracta ce implementeaza Container cu functionalitatile comune ale claselor Queue si in Stack, pentru a se evita duplicarea de cod in acestea:
 
-	- implementeaza toate metodele din Container, in afara de`pop()`;
+	- implementeaza toate metodele din Container, in afara de `push()`;
 	
-        - contine un `ArrayList` ce sticheaza `Task`-urile;
+	- contine un `ArrayList` ce stocheaza `Task`-urile;
 
-- Queue: extinde AbstractContainet;
+- Queue: extinde AbstractContainet, mostenindu-i `ArrayList`-ul si metodele si implementand doar `push()` din Container;
 
-- Stack: extinde AbstractContainet.
+- Stack: idem.
 
 ## third - Factory Pattern + Singleton
 
