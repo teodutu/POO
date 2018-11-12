@@ -1,6 +1,5 @@
 # TEMA 1 POO - Sheriff of Nottingham
 
-
 ## Implementare:
 
 - exista clase pentru fiecare carte si pentru fiecare jucator;
