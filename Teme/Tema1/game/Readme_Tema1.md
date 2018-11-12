@@ -19,14 +19,18 @@
 
 - "(i)C" inseamna "I este o interfata";
 
-    - players: (abs)Player -> Basic -> Bribed  |
-                                    -> Greedy  |  (generate de PlayerFactory,
-                                    -> Wizard  |   vizitate de LeaderBoardUpdater)
-
-    - players: (i)ILeaderBoardUpdater -> LeaderBoardUpdater
+    - players: 
     
-    - assets: (abs)Card -> Apple    |
-                        -> Barrel   |
+        - (abs)Player -> Basic
+        - Basic -> Bribed
+        - Basic -> Greedy
+        - Basic -> Wizard
+
+        - (i)ILeaderBoardUpdater -> LeaderBoardUpdater
+    
+    - assets: 
+        - (abs)Card -> Apple    |
+                    -> Barrel   |
                         -> Bread    |
                         -> Cheese   |  (generate de CardFactory)
                         -> Chicken  |
