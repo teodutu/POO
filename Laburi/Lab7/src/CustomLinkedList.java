@@ -17,7 +17,6 @@ public class CustomLinkedList extends LinkedList<Integer> {
 
     @Override
     public boolean addAll(Collection<? extends Integer> c) {
-        // return super.addAll(c);
         boolean added = super.addAll(c);
 
         if (added) {

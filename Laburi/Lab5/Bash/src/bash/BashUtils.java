@@ -1,7 +1,6 @@
 package bash;
 
 import java.io.File;
-import java.nio.file.Paths;
 
 enum Commands {
     CD("cd "),
@@ -23,9 +22,7 @@ enum Commands {
 
 class BashUtils {
     // Implement some inner classes here: Echo, Cd, Ls, History
-
     // example: class Cd { ... }
-
     // Decide if they should be static or non-static.
 
     static class Echo implements CommandSubscriber {

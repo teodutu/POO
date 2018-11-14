@@ -11,8 +11,8 @@ public class Main {
         Manager river = new Manager("river", 100, 20);
 
         RevenueVisitor revenueVisitor = new RevenueVisitor();
-        MostHardworkingEmployeeFinder tractorist = new MostHardworkingEmployeeFinder();
-        TreeVisitor treeVisitor = new TreeVisitor(tractorist);
+        MostHardworkingEmployeeFinder worker = new MostHardworkingEmployeeFinder();
+        TreeVisitor treeVisitor = new TreeVisitor(worker);
 
 
         employee.accept(revenueVisitor);

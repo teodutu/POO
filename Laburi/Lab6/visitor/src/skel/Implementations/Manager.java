@@ -9,13 +9,11 @@ public class Manager extends Employee {
 
     Manager(String name, float salary, float bonus) {
         super(name, salary);
-
         this.bonus = bonus;
     }
 
     Manager(String name, float salary, float extraHours, float bonus) {
         super(name, salary, extraHours);
-
         this.bonus = bonus;
     }
 
@@ -26,7 +24,6 @@ public class Manager extends Employee {
     LinkedList<Visitable> getSubordinates() {
         return subordinates;
     }
-
 
     void addSubordinate(Visitable subordinate) {
         subordinates.add(subordinate);

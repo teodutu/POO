@@ -12,14 +12,14 @@ class GradeBook extends TreeMap<Integer, List<Student>>{
 
     void add(Student s) {
         int studentGrade = Math.round(s.getGrade());
-        List<Student> l = super.get(studentGrade);
+        List<Student> l = get(studentGrade);
 
         if (l == null) {
             l = new ArrayList<>();
         }
 
         l.add(s);
-        super.put(studentGrade, l);
+        put(studentGrade, l);
     }
 
     void sortStudents() {

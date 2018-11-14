@@ -26,8 +26,6 @@ public class MostHardworkingEmployeeFinder implements Visitor {
 
         ++numEmployees;
         empHours += currHours;
-
-        System.out.println(employee.getName() + ": " + employee.getExtraHours() + " hours");
     }
 
     @Override

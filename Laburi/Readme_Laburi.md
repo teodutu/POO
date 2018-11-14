@@ -28,7 +28,7 @@ Limbaj: Java
 
 - Main
 
-Labul mai contine 4 pachete (RIP creativitate):
+Laboratorul mai contine 4 pachete (RIP creativitate):
 
 - first
 
@@ -37,3 +37,20 @@ Labul mai contine 4 pachete (RIP creativitate):
 - third
 
 - fourth
+
+## Lab5 - clase interne, (Publish-Subscribe)
+
+- pachete:
+	- bash
+
+	- linux
+
+## Lab6 - Visitor patern
+
+- se vor apela mai multe tipuri de vizitatori pe o ierarhie *Manager*, *Employee*, *Intern*
+
+- un alt exmplu de *Visitor* este *FilesCounter*
+
+## Lab7 - colectii
+
+- exemple de utilizare (si extindere) *HashSet*, *TreeMap*, comparatori si *LinkedList*;

@@ -28,13 +28,13 @@ public class TreeVisitor implements Visitor {
     public void visit(Manager manager) {
         manager.accept(baseVisitor);
 
-        for (Visitable slave : manager.getSubordinates()) {
-            if (slave instanceof Intern) {
-                visit((Intern)slave);
-            } else if (slave instanceof Manager) {
-                visit((Manager)slave);
-            } else if (slave instanceof Employee) {
-                visit((Employee)slave);
+        for (Visitable worker : manager.getSubordinates()) {
+            if (worker instanceof Intern) {
+                visit((Intern)worker);
+            } else if (worker instanceof Manager) {
+                visit((Manager)worker);
+            } else if (worker instanceof Employee) {
+                visit((Employee)worker);
             }
         }
     }
