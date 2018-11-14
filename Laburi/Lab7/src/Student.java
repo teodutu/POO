@@ -2,6 +2,11 @@ public class Student implements Comparable<Object> {
     private String name;
     private float grade;
 
+    Student(final String studentName, final float studentGrade) {
+        name = studentName;
+        grade = studentGrade;
+    }
+
     private String getName() {
         return name;
     }
@@ -21,11 +26,6 @@ public class Student implements Comparable<Object> {
 
     boolean equals(Student student) {
         return false;
-    }
-
-    Student(final String studentName, final float studentGrade) {
-        name = studentName;
-        grade = studentGrade;
     }
 
     @Override
