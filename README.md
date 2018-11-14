@@ -14,11 +14,11 @@ Toate fisierele-sursa au fost si vor fi compilate cu `Java 10` si rulate pe un J
 
 - Lab4: clase abstracte + interfete
 
-- Lab5: TODO
+- Lab5: clase interne
 
-- Lab6: TODO
+- Lab6: visitor pattern + suprascriere
 
-- Lab7: TODO
+- Lab7: colectii
 
 - Lab8: TODO
 
