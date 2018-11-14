@@ -3,42 +3,35 @@ package skel.Implementations;
 import java.util.LinkedList;
 
 public class Manager extends Employee {
-    protected float bonus;
+    private float bonus;
 
-    private LinkedList<Visitable> subordinates = new LinkedList<Visitable>();
+    private LinkedList<Visitable> subordinates = new LinkedList<>();
 
-    public Manager(String name, float salary, float bonus) {
+    Manager(String name, float salary, float bonus) {
         super(name, salary);
 
         this.bonus = bonus;
     }
 
-    public Manager(String name, float salary, float extraHours, float bonus) {
+    Manager(String name, float salary, float extraHours, float bonus) {
         super(name, salary, extraHours);
 
         this.bonus = bonus;
     }
 
-    public float getBonus() {
+    float getBonus() {
         return bonus;
     }
 
-    public void setBonus(float bonus) {
-        this.bonus = bonus;
-    }
-
-    public LinkedList<Visitable> getSubordinates() {
-        //TODO
-
+    LinkedList<Visitable> getSubordinates() {
         return subordinates;
     }
 
-    public void addSubordinate(Visitable subordinate) {
-        //TODO
+
+    void addSubordinate(Visitable subordinate) {
         subordinates.add(subordinate);
     }
 
-    //TODO ex1b - nu mai suprascrieti metoda accept
     @Override
     public void accept(Visitor v) {
         v.visit(this);

@@ -8,10 +8,9 @@ package skel.Implementations;
  * (prezentat anterior).
  */
 public class TreeVisitor implements Visitor {
-
     private Visitor baseVisitor;
 
-    public TreeVisitor(Visitor baseVisitor) {
+    TreeVisitor(Visitor baseVisitor) {
         this.baseVisitor = baseVisitor;
     }
 
@@ -22,7 +21,6 @@ public class TreeVisitor implements Visitor {
 
     @Override
     public void visit(Employee employee) {
-        //TODO
         employee.accept(baseVisitor);
     }
 
@@ -41,7 +39,7 @@ public class TreeVisitor implements Visitor {
         }
     }
 
-    public Visitor getBaseVisitor() {
+    Visitor getBaseVisitor() {
         return baseVisitor;
     }
 }

@@ -1,30 +1,31 @@
 package skel.Implementations;
 
 public class Employee implements Visitable {
-    protected String name;
-    protected float salary;
-    protected float extraHours;
+    private String name;
+    private float salary;
+    private float extraHours;
 
-    public Employee(String name, float salary) {
+
+    Employee(String name, float salary) {
         this.name = name;
         this.salary = salary;
     }
 
-    public Employee(String name, float salary, float extraHours) {
-        this.name = name;
-        this.salary = salary;
+    Employee(String name, float salary, float  extraHours) {
+        this(name, salary);
         this.extraHours = extraHours;
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    public float getSalary() {
+
+    float getSalary() {
         return salary;
     }
 
-    public float getExtraHours() {
+    float getExtraHours() {
         return extraHours;
     }
 

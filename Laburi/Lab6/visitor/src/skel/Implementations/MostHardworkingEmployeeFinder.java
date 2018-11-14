@@ -5,6 +5,13 @@ package skel.Implementations;
  * este mai mare decat cea a managerilor.
  */
 public class MostHardworkingEmployeeFinder implements Visitor {
+    private int numEmployees, numManagers;
+    private float empHours, mngrHours;
+
+    MostHardworkingEmployeeFinder() {
+        numEmployees = numManagers = 0;
+        empHours = mngrHours = 0;
+    }
 
     @Override
     public void visit(Intern intern) {
@@ -13,17 +20,27 @@ public class MostHardworkingEmployeeFinder implements Visitor {
 
     @Override
     public void visit(Employee employee) {
+        float currHours = employee.getExtraHours();
+
+        System.out.println(employee.getName() + ": " + currHours + " hours");
+
+        ++numEmployees;
+        empHours += currHours;
+
         System.out.println(employee.getName() + ": " + employee.getExtraHours() + " hours");
     }
 
     @Override
     public void visit(Manager manager) {
-        System.out.println(manager.getName() + ": " + manager.getExtraHours() + " hours");
+        float currHours = manager.getExtraHours();
+
+        System.out.println(manager.getName() + ": " + currHours + " hours");
+
+        ++numManagers;
+        empHours += currHours;
     }
 
-    public boolean isManagerHardWorking() {
-        // TODO
-
-        return false;
+    boolean isManagerHardWorking() {
+        return mngrHours / numManagers > empHours / numEmployees;
     }
 }
