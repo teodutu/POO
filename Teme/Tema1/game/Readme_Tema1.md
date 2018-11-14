@@ -22,20 +22,20 @@
     - players: 
     
         - (abs)Player -> Basic
-        - Basic -> Bribed |
-        - Basic -> Greedy | (generate de PlayerFactory,
-        - Basic -> Wizard | vizitate de LeaderBoardUpdater)
+        - Basic -> Bribed
+        - Basic -> Greedy
+        - Basic -> Wizard
 
         - (i)ILeaderBoardUpdater -> LeaderBoardUpdater
     
     - assets: 
-        - (abs)Card -> Apple    |
-        - (abs)Card -> Barrel   |
-        - (abs)Card -> Bread    |
-        - (abs)Card -> Cheese   |  (generate de CardFactory)
-        - (abs)Card -> Chicken  |
-        - (abs)Card -> Pepper   |
-        - (abs)Card -> Silk     |
+        - (abs)Card -> Apple
+        - (abs)Card -> Barrel
+        - (abs)Card -> Bread
+        - (abs)Card -> Cheese
+        - (abs)Card -> Chicken
+        - (abs)Card -> Pepper
+        - (abs)Card -> Silk
 
 
 ## Design:
