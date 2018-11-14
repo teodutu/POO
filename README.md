@@ -32,9 +32,9 @@ Toate fisierele-sursa au fost si vor fi compilate cu `Java 10` si rulate pe un J
 
 ## Teme
 
-- Tema1 - Sheriff of Nottingham: TODO
+- Tema1 - Sheriff of Nottingham
 
-- Tema2 - ???: TODO
+- Tema2 - VCS(07.11.2018 - 25.11.2018): TODO
 
 - Tema3 - ???: TODO
 
