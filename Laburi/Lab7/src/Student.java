@@ -1,8 +1,8 @@
-public class Student implements Comparable {
+public class Student implements Comparable<Object> {
     private String name;
     private float grade;
 
-    final String getName() {
+    private String getName() {
         return name;
     }
 
