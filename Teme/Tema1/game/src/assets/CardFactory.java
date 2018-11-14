@@ -6,7 +6,6 @@ import java.util.HashSet;
  * Clasa abstracta ce implementeaza un design pattern de tip Factory pentru a returna
  * referinte la singleton-urile ce reprezinta cartile de joc.
  */
-
 public abstract class CardFactory {
     /**
      * Primind un ID de carte si HashSet-ul in care se vor pastra catile ce pot primi bonus, metoda

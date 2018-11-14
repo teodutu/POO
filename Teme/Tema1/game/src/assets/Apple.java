@@ -4,7 +4,6 @@ package assets;
  * Singleton ce reprezinta cartea Apple.
  * Fiecare carte de tip Apple va fi de fapt o referinta la obiectul APPLE din aceasta clasa.
  */
-
 public final class Apple extends Card {
     private static final Apple APPLE = new Apple();
 
@@ -19,7 +18,6 @@ public final class Apple extends Card {
     /**
      * Constructor privat ce se apeleaza o singura data pentru a crea obiectul APPLE.
      */
-
     private Apple() {
          super(APPLE_ID,
                 APPLE_LEGAL,
@@ -35,7 +33,6 @@ public final class Apple extends Card {
      * Metoda ce permite accesarea unicului obiect de tip Apple, APPLE.
      * @return referinta catre APPLE
      */
-
     public static Apple getInstance() {
         return APPLE;
     }

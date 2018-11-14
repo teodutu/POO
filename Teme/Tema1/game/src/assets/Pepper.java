@@ -4,7 +4,6 @@ package assets;
  * Singleton ce reprezinta cartea Pepper.
  * Fiecare carte de tip Pepper va fi de fapt o referinta la obiectul PEPPER din aceasta clasa.
  */
-
 public final class Pepper extends Card {
     private static final Pepper PEPPER = new Pepper();
 
@@ -19,7 +18,6 @@ public final class Pepper extends Card {
     /**
      * Constructor privat ce se apeleaza o singura data pentru a crea obiectul PEPPER.
      */
-
     private Pepper() {
         super(PEPPER_ID,
                 PEPPER_LEGAL,
@@ -35,7 +33,6 @@ public final class Pepper extends Card {
      * Metoda ce permite accesarea unicului obiect de tip Pepper, PEPPER.
      * @return referinta catre PEPPER
      */
-
     public static Pepper getInstance() {
         return PEPPER;
     }

@@ -4,7 +4,6 @@ package assets;
  * Singleton ce reprezinta cartea Silk.
  * Fiecare carte de tip Silk va fi de fapt o referinta la obiectul SILK din aceasta clasa.
  */
-
 public final class Silk extends Card {
     private static final Silk SILK = new Silk();
 
@@ -19,7 +18,6 @@ public final class Silk extends Card {
     /**
      * Constructor privat ce se apeleaza o singura data pentru a crea obiectul SILK.
      */
-
     private Silk() {
         super(SILK_ID,
                 SILK_LEGAL,
@@ -35,7 +33,6 @@ public final class Silk extends Card {
      * Metoda ce permite accesarea unicului obiect de tip Silk, SILK.
      * @return referinta catre SILK
      */
-
     public static Silk getInstance() {
         return SILK;
     }

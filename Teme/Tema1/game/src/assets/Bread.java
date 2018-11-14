@@ -4,7 +4,6 @@ package assets;
  * Singleton ce reprezinta cartea Bread.
  * Fiecare carte de tip Bread va fi de fapt o referinta la obiectul BREAD din aceasta clasa
  */
-
 public final class Bread extends Card {
     private static final Bread BREAD = new Bread();
 
@@ -19,7 +18,6 @@ public final class Bread extends Card {
     /**
      * Constructor privat ce se apeleaza o singura data pentru a crea obiectul BREAD.
      */
-
     private Bread() {
         super(BREAD_ID,
                 BREAD_LEGAL,
@@ -35,7 +33,6 @@ public final class Bread extends Card {
      * Metoda ce permite accesarea unicului obiect de tip Bread, BREAD.
      * @return referinta catre BREAD
      */
-
     public static Bread getInstance() {
         return BREAD;
     }

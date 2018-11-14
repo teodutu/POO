@@ -4,7 +4,6 @@ package assets;
  * Singleton ce reprezinta cartea Chicken.
  * Fiecare carte de tip Chicken va fi de fapt o referinta la obiectul CHICKEN din aceasta clasa.
  */
-
 public final class Chicken extends Card {
     private static final Chicken CHICKEN = new Chicken();
 
@@ -19,7 +18,6 @@ public final class Chicken extends Card {
     /**
      * Constructor privat ce se apeleaza o singura data pentru a crea obiectul CHICKEN.
      */
-
     private Chicken() {
         super(CHICKEN_ID,
                 CHICKEN_LEGAL,
@@ -35,7 +33,6 @@ public final class Chicken extends Card {
      * Metoda ce permite accesarea unicului obiect de tip Chicken, CHICKEN.
      * @return referinta catre CHICKEN
      */
-
     public static Chicken getInstance() {
         return CHICKEN;
     }

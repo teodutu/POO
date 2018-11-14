@@ -4,7 +4,6 @@ package assets;
  * Singleton ce reprezinta cartea Cheese.
  * Fiecare carte de tip Cheese va fi de fapt o referinta la obiectul CHEESE din aceasta clasa.
  */
-
 public final class Cheese extends Card {
     private static final Cheese CHEESE = new Cheese();
 
@@ -19,7 +18,6 @@ public final class Cheese extends Card {
     /**
      * Constructor privat ce se apeleaza o singura data pentru a crea obiectul CHEESE.
      */
-
     private Cheese() {
         super(CHEESE_ID,
                 CHEESE_LEGAL,
@@ -35,7 +33,6 @@ public final class Cheese extends Card {
      * Metoda ce permite accesarea unicului obiect de tip Cheese, CHEESE.
      * @return referinta catre CHEESE
      */
-
     public static Cheese getInstance() {
         return CHEESE;
     }
