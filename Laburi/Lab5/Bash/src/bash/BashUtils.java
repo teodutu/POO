@@ -4,9 +4,9 @@ import java.io.File;
 import java.nio.file.Paths;
 
 enum Commands {
-    CD("cd"),
+    CD("cd "),
     LS("ls"),
-    ECHO("echo"),
+    ECHO("echo "),
     HISTORY("history");
 
     private final String text;
@@ -28,35 +28,32 @@ class BashUtils {
 
     // Decide if they should be static or non-static.
 
-    // TODO 4 Create Echo class
     static class Echo implements CommandSubscriber {
         @Override
         public void executeCommand(Command c) {
             String currCmd = c.getCommand();
 
-            if (currCmd.startsWith("echo ")) {
-                System.out.println(currCmd.substring("echo ".length()));
+            if (currCmd.startsWith(Commands.ECHO.toString())) {
+                System.out.println(currCmd.substring(Commands.ECHO.toString().length()));
             }
         }
     }
 
-    // TODO 5 Create Cd class
     static class Cd implements CommandSubscriber{
         @Override
         public void executeCommand(Command c) {
             String currCmd = c.getCommand();
 
-            if (currCmd.startsWith("cd ")) {
-                c.getBash().setCurrentDirectory(currCmd.substring("cd ".length()));
+            if (currCmd.startsWith(Commands.CD.toString())) {
+                c.getBash().setCurrentDirectory(currCmd.substring(Commands.CD.toString().length()));
             }
         }
     }
 
-    // TODO 6 Create the Ls class
     static class Ls implements CommandSubscriber {
         @Override
         public void executeCommand(Command c) {
-            if (c.getCommand().equals("ls")) {
+            if (c.getCommand().equals(Commands.LS.toString())) {
                 File[] fileList = c.getBash().getCurrentDirectory().toFile().listFiles();
 
                 if (fileList != null) {
@@ -68,11 +65,10 @@ class BashUtils {
         }
     }
 
-    // TODO 7 Create the History class
     static class History implements CommandSubscriber {
         @Override
         public void executeCommand(Command c) {
-            if (c.getCommand().equals("history")) {
+            if (c.getCommand().equals(Commands.HISTORY.toString())) {
                 System.out.println("History is: " + c.getBash().getHistory());
             }
         }
