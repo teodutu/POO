@@ -53,4 +53,16 @@ Laboratorul mai contine 4 pachete (RIP creativitate):
 
 ## Lab7 - colectii
 
-- exemple de utilizare (si extindere) *HashSet*, *TreeMap*, comparatori si *LinkedList*;
+- exemple de utilizare (si extindere) *HashSet*, *TreeMap*, comparatori si *LinkedList*
+
+## Lab8 - genericitate
+
+- hashmap:
+	- template
+
+	- iteratori
+
+- summable:
+	- wildcarduri
+
+	- colectii generice

@@ -20,7 +20,7 @@ Toate fisierele-sursa au fost si vor fi compilate cu `Java 10` si rulate pe un J
 
 - Lab7: colectii
 
-- Lab8: TODO
+- Lab8: genericitate
 
 - Lab9: TODO
 
