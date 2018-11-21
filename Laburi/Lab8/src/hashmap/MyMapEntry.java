@@ -1,6 +1,6 @@
 package hashmap;
 
-class MyMapEntry<K, V> {
+class MyMapEntry<K extends Comparable<K>, V> {
     private K key;
     private V value;
 

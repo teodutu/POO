@@ -17,14 +17,18 @@ class MyMatrix implements Summable {
         }
     }
 
-    void printElems() {
+    @Override
+    public String toString() {
+        String str = "";
+
         for (int i = 0; i < 4; ++i) {
             for (int j = 0; j < 4; ++j) {
-                System.out.print(m[i][j] + " ");
+                str += m[i][j] + " ";
             }
-            System.out.println();
+            str += "\n";
         }
-        System.out.println();
+
+        return str.substring(0, str.length() - 1);
     }
 
     @Override

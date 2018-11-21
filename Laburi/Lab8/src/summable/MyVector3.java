@@ -11,11 +11,15 @@ public class MyVector3 implements Summable {
         arr[2] = t3;
     }
 
-    void printElems() {
+    @Override
+    public String toString() {
+        String str = "";
+
         for (int i = 0; i < 3; ++i) {
-            System.out.print(arr[i] + " ");
+            str += arr[i] + " ";
         }
-        System.out.println("\n");
+
+        return str;
     }
 
     @Override

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-class MyHashMap<K, V> implements Iterable<MyMapEntry<K, V>> {
+class MyHashMap<K extends Comparable<K>, V> implements Iterable<MyMapEntry<K, V>> {
     private static final double QUOTIENT = 0.7;
     private ArrayList<LinkedList<MyMapEntry<K, V>>> mapArr;
 
