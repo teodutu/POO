@@ -29,6 +29,7 @@ public class MainErrors {
         Calculator calc = new Calculator();
 
         // System.out.println(calc.add(2000000000, 1000000000));
+        System.out.println(calc.divide(1, 0));
         // System.out.println(calc.add(-2000000000, -1000000000));
 
         System.out.println(showcaseFinally());
