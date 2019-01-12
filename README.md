@@ -28,8 +28,6 @@ Toate fisierele-sursa au fost si vor fi compilate cu `Java 10` si rulate pe un J
 
 - Lab11: TODO
 
-- Lab12: TODO
-
 ## Teme
 
 - Tema1 - Sheriff of Nottingham
@@ -40,4 +38,4 @@ Toate fisierele-sursa au fost si vor fi compilate cu `Java 10` si rulate pe un J
 
 ## Snippet-uri
 
-TODO: cateva task-uri de pe HackerRank, daca merita
+- subiecte de la testele practice din anii trecuti.
