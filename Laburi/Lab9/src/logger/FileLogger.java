@@ -2,8 +2,8 @@ package logger;
 
 import java.util.EnumSet;
 
-public class FileLogger extends LoggerBase {
-    public FileLogger(EnumSet<LogLevel> enumSet) {
+class FileLogger extends LoggerBase {
+    FileLogger(EnumSet<LogLevel> enumSet) {
         super(enumSet);
     }
 

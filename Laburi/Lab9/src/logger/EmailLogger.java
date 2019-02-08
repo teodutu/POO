@@ -2,8 +2,8 @@ package logger;
 
 import java.util.EnumSet;
 
-public class EmailLogger extends LoggerBase{
-    public EmailLogger(EnumSet<LogLevel> enumSet) {
+class EmailLogger extends LoggerBase{
+    EmailLogger(EnumSet<LogLevel> enumSet) {
         super(enumSet);
     }
 

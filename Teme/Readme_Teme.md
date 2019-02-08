@@ -1,15 +1,19 @@
 # Teme
 
-Toate temele vor fi postate pe git **dupa deadline**. Bine ar fi sa nu apara prelungiri de deadline de care sa nu stiu...
+Toate temele au fost postate pe git **dupa deadline**.
 
-## Tema 1 - Sheriff of Nottingham (21.10.2018 - 04.11.2018)
+## Tema 1 - Sheriff of Nottingham
 
-- TODO;
+- se ilustreaza functionarea pattern-urilor *Singleton*, *Factory* si *Visitor*
 
-## Tema 2 - ??? (? - ?)
+## Tema 2 - VCS
 
-- TODO;
+- se implementeaza o simulare a unui sistem de versionare a codului, precum git
 
-## Tema 3 - ??? (? - ?)
+- se axeaza pe *singleton* si *factory*
 
-- TODO;
+## Tema 3 - Emergency Room Simulator
+
+- se simuleaza o camera de garda a unui spital, pe baza *observer pattern*
+
+- inputul este citit dintr-un fisier *JSON*

@@ -22,19 +22,17 @@ Toate fisierele-sursa au fost si vor fi compilate cu `Java 10` si rulate pe un J
 
 - Lab8: genericitate
 
-- Lab9: TODO
+- Lab9: exceptii
 
-- Lab10: TODO
-
-- Lab11: TODO
+- Lab11: design patterns(singleton, factory, obsever, strategy, command)
 
 ## Teme
 
 - Tema1 - Sheriff of Nottingham
 
-- Tema2 - VCS(07.11.2018 - 25.11.2018): TODO
+- Tema2 - VCS
 
-- Tema3 - ???: TODO
+- Tema3 - Emergency Room Simulator
 
 ## Snippet-uri
 

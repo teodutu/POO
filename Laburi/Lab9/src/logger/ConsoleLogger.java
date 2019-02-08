@@ -2,8 +2,8 @@ package logger;
 
 import java.util.EnumSet;
 
-public class ConsoleLogger extends LoggerBase {
-    public ConsoleLogger(EnumSet<LogLevel> enumSet) {
+class ConsoleLogger extends LoggerBase {
+    ConsoleLogger(EnumSet<LogLevel> enumSet) {
         super(enumSet);
     }
 

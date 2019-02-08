@@ -6,8 +6,6 @@ abstract class LoggerBase {
     private EnumSet<LogLevel> logLevels;
     private LoggerBase next;
 
-    LoggerBase() {}
-
     LoggerBase(EnumSet<LogLevel> enumSet) {
         logLevels = enumSet;
     }

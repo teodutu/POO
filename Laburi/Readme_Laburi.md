@@ -66,3 +66,17 @@ Laboratorul mai contine 4 pachete (RIP creativitate):
 	- wildcarduri
 
 	- colectii generice
+
+## Lab9 - exceptii
+
+- checked exceptions
+
+- errors
+
+- runtime exceptions
+
+## Lab11 - design patterns (singleton, factory, observer, strategy, command)
+
+- lab10 + lab11
+
+- se creaza un joc de tip RPG in linie de comanda

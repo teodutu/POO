@@ -5,7 +5,6 @@ import entities.Monster;
 import entities.Treasure;
 
 import java.util.List;
-import java.util.TreeSet;
 
 public class AttackStrategy implements Strategy {
 	private Hero hero;

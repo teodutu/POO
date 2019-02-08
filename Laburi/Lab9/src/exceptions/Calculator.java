@@ -2,7 +2,7 @@ package exceptions;
 
 import java.util.Collection;
 
-public class Calculator {
+class Calculator {
     Integer add(Integer i1, Integer i2) throws OverflowException, UnderflowException {
         if (i2 > Integer.MAX_VALUE - i1) {
             throw new OverflowException("The sum exceeds INT_MAX");
