@@ -34,6 +34,6 @@ Toate fisierele-sursa au fost si vor fi compilate cu `Java 10` si rulate pe un J
 
 - Tema3 - Emergency Room Simulator
 
-## Snippet-uri
+## Snippeturi
 
 - subiecte de la testele practice din anii trecuti.
